@@ -8,10 +8,10 @@ def isPrime(number)
 end
 
 
-for i in 2..2000000
+for i in 2..200000
 	if isPrime(i) then
-		puts "X"
+		print "X"
 	else
-		puts "O"
+		print "O"
 	end
 end
