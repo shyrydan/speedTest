@@ -4,7 +4,7 @@ public class Primes
 	{
 		
 
-	for (int k = 2; k < 2000000; k++)
+	for (int k = 2; k < 200000; k++)
 	{
    		if (isPrime(k))
    		{
