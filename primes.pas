@@ -10,7 +10,7 @@ begin
   for l := 2 to current - 1 do
   begin
         if ( current mod l = 0 ) then
-                isPrime := true;
+                isPrime := false;
                 break;
   end;
   isPrime := true;
@@ -19,12 +19,12 @@ end;
 
 BEGIN
     writeln('Hello World');
-    for k := 2 to 2000000 do
+    for k := 2 to 200000 do
     begin
         if isPrime(k) then
-                writeln('O')
+                write('O')
         else
-                writeln('X')
+                write('X')
     end;
     readln;
 

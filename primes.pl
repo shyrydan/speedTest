@@ -21,7 +21,7 @@ sub isPrime
 
 my $k = 2;
 
-for ($k = 2; $k < 2000000; $k++)
+for ($k = 2; $k < 200000; $k++)
 {
 	if (isPrime($k))
 	{		

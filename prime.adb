@@ -15,7 +15,7 @@ procedure Prime is
 
 begin
 
-    for k in 2 .. 2000000 loop
+    for k in 2 .. 200000 loop
         if isPrime(k) then 
             Ada.Text_IO.Put("X");
         else 
