@@ -2,7 +2,6 @@ Numbers
 =======
 
 Seconds 5,785
-
-
-
 Intel Core i5-3570K CPU @ 3.40 GHz
+
+2m13.438s =>Raspberry PI
