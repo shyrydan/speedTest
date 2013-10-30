@@ -15,7 +15,7 @@
  END FUNCTION
 
 Program Primes
-  do i=104729, 104729+10000 
+  do i=1, 200000
      if (isPrime(i) == 1) then 
         write (*,*) "X"
      else 

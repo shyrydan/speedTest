@@ -17,7 +17,7 @@ class Program
     }
     static void Main()
     {
-        for (int k = 2; k < 20; k++)
+        for (int k = 2; k < 200000; k++)
         {
             if (isPrime(k))
             {

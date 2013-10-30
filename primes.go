@@ -12,7 +12,7 @@ func isPrime(x int) bool {
 }
 
 func main() {
-	for k := 2; k < 2000000; k++{
+	for k := 2; k < 200000; k++{
 		if isPrime(k) {
 				fmt.Print("X")
 			} else {
